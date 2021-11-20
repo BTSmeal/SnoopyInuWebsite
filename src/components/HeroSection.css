@@ -1,13 +1,5 @@
-video {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  z-index: -1;
-}
-
 .hero-container {
-  /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+  background: #2498f0 ;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -18,8 +10,7 @@ video {
   object-fit: contain;
 }
 
-.hero-container > h1 {
-  color: #fff;
+.hero-cont-img {
   font-size: 100px;
   margin-top: -100px;
 }
@@ -33,11 +24,19 @@ video {
 }
 
 .hero-btns {
-  margin-top: 32px;
+ display: flex;
+ flex-direction: row;
+ margin-top: 50px;
+ padding: 20px;
+ justify-content: center;
 }
-
-.hero-btns .btn {
-  margin: 6px;
+/*  margin: 6px;
+  padding: 0.5rem 1rem;
+  height: 100%;
+  height: 10px;
+  width: 30vw;*/
+.btns-1 {
+margin-right: 40px;
 }
 
 .fa-play-circle {
@@ -48,6 +47,9 @@ video {
   .hero-container > h1 {
     font-size: 70px;
     margin-top: -150px;
+  }
+  .btns-1{
+   width: 50vw;
   }
 }
 
@@ -68,5 +70,27 @@ video {
 
   .btn {
     width: 100%;
+  }
+  .hero-btns {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+   }
+   .btns-1 {
+     width: 90%;
+     height: 100%;
+     margin-top: 65px;
+     margin-bottom: 30px;
+     margin-left: 20px;
+     margin-right: 20px;
+     
+   }
+   .btns-2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    
   }
 }
