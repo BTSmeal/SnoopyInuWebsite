@@ -11,7 +11,7 @@ function Footer() {
           <Link class='website-rights' to='/disclaimer'>Disclaimer</Link>
           <div class='social-icons'>
             <Link
-             className='nav-links'
+             className='foot-links'
               to='/'
               target='_blank'
               aria-label='Telegram'
@@ -19,7 +19,7 @@ function Footer() {
               <i class='fab fa-telegram fa-2x' />
             </Link>
             <Link
-             className='nav-links'
+             className='foot-links'
               to='/'
               target='_blank'
               aria-label='Youtube'
@@ -27,7 +27,7 @@ function Footer() {
               <i class='fab fa-youtube fa-2x' />
             </Link>
             <Link
-              className='nav-links'
+             className='foot-links'
               to='/'
               target='_blank'
               aria-label='Twitter'
