@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=VT323&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-size: 3rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'VT323', monospace;
   font-size: 100%;
 }
 
@@ -51,9 +53,31 @@
 }
 .tokenomics-main{
   min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .pokeball{
   color: #d63526 ;
   margin-right: 12px;
   margin-left: 12px;
+}
+.token-link{
+  color: white;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 4rem;
+  height: 100%;
+ border-radius: 5rem;
+}
+.token-link:hover {
+  transition: all 0.2s ease-out;
+}
+.roadmap-main{
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
 }

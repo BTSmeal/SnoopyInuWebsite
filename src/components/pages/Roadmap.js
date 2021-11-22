@@ -6,6 +6,7 @@ const Roadmap = () => {
     <section class="text-gray-600 body-font">
 <div class="container px-10 pt-28 pb-20 mx-auto flex flex-wrap text-xl text-gray-500">
   <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
+  <div className="roadmap-main">
     <div class="flex flex-wrap w-full">
         <div class="flex relative pb-20">
           <div class="h-full w-10 absolute inset-2 flex items-center justify-center">
@@ -17,36 +18,8 @@ const Roadmap = () => {
 </svg>
           </div>
           <div class="flex-grow pl-10">
-            <h2 class="font-semi-bold title-font text-4xl text-gray-900 mb-4 tracking-tight">Quarter 1</h2>
-            <p class="leading-relaxed text-2xl text-gray-500">Format your CSV files with all the wallet addresses according to the pattern provided in the documentation.</p>
-          </div>
-        </div>
-        <div class="flex relative pb-20">
-          <div class="h-full w-10 absolute inset-2 flex items-center justify-center">
-            <div class="h-full w-1 bg-gray-300 pointer-events-none"></div>
-          </div>
-          <div class="flex-shrink-0 w-14 h-14 rounded-full bg-red-500 inline-flex items-center justify-center text-white relative z-10">
-          <svg xmlns="http://www.w3.org/2000/svg" className="h76 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
-</svg>
-          </div>
-          <div class="flex-grow pl-10">
-            <h2 class="font-semi-bold title-font text-4xl text-gray-900 mb-4 tracking-tight">Quarter 2</h2>
-            <p class="leading-relaxed text-2xl  text-gray-500">Click on Start Button at the top of Website and you will be redirected to the pag from where you can continue.</p>
-          </div>
-        </div>
-        <div class="flex relative pb-20">
-          <div class="h-full w-10 absolute inset-2 flex items-center justify-center">
-            <div class="h-full w-1 bg-gray-300 pointer-events-none"></div>
-          </div>
-          <div class="flex-shrink-0 w-14 h-14 rounded-full bg-red-500 inline-flex items-center justify-center text-white relative z-10">
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-</svg>
-          </div>
-          <div class="flex-grow pl-10">
-            <h2 class="font-semi-bold title-font text-4xl text-gray-900 mb-4 tracking-tight">Quarter 3</h2>
-            <p class="leading-relaxed text-2xl  text-gray-500">Paste your Wallet's secret Keys first from which you want to Airdrop the Tokens(We never store your data and everything restarts as soon as you refresh the page!)</p>
+            <h2 class="font-semi-bold title-font text-6xl text-gray-900 mb-4 tracking-tight">Phase 1</h2>
+            <p class="leading-relaxed text-4xl text-gray-500">• Fair Launch <br/> • CoinGecko Listing <br/> • r/CryptoMoonShots Reddit Trending <br/> • Grow Telegram to 1000 members </p>
           </div>
         </div>
         <div class="flex relative pb-20">
@@ -59,8 +32,8 @@ const Roadmap = () => {
 </svg>
    </div>
           <div class="flex-grow pl-10">
-            <h2 class="font-semi-bold title-font text-4xl text-gray-900 mb-4 tracking-tight">Quarter 4</h2>
-            <p class="leading-relaxed text-2xl  text-gray-500">Then Select what Token you want to Airdrop, if its a SPL Token, please specify the contract address of that token along with its decimal.</p>
+            <h2 class="font-semi-bold title-font text-6xl text-gray-900 mb-4 tracking-tight">Phase 2</h2>
+            <p class="leading-relaxed text-4xl  text-gray-500"> • CoinMarketCap Listing <br/>  • Major Influencer Reveal  <br/>  •   Centralised Exchange Listing  </p>
           </div>
         </div>
         <div class="flex relative">
@@ -70,12 +43,13 @@ const Roadmap = () => {
 </svg>
           </div>
           <div class="flex-grow pl-10">
-            <h2 class="font-semi-bold title-font text-4xl text-gray-900 mb-4 tracking-tight">End Of Year</h2>
-            <p class="leading-relaxed text-2xl  text-gray-500">Click on the "Send Tokens" button and the process will be completed in few minutes! You can even download the Transaction details as soon as the process completes by clicking on the notification.</p>
+            <h2 class="font-semi-bold title-font text-6xl text-gray-900 mb-4 tracking-tight">Phase 3</h2>
+            <p class="leading-relaxed text-4xl  text-gray-500"> • Decentralised Exchange Listing <br/>   •  Stakeing Platform Launch   <br/>    • Play 2 Earn Game Launch</p>
           </div>
         </div>
 </div>
-    </div>
+</div>
+</div>
   </div>
 </section>
     </>
