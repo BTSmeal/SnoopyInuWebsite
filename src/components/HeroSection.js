@@ -14,7 +14,7 @@ function HeroSection() {
       </div>
       <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center main-hero-bute">
      <div className="hero-head1">
-        <h1 class="title-font sm:text-4xl text-3xl mb-1 font-medium text-gray-700 text-center">  <img src="383.png" className="pokemon-ball"/> GOURDON </h1> <p class="mb-2 leading-relaxed text-center">Continent Pokemon</p> </div>
+        <h1 class="title-font sm:text-4xl text-3xl mb-1 font-medium text-gray-700 text-center">  <img src="383.png" className="pokemon-ball"/> GROUDON </h1> <p class="mb-2 leading-relaxed text-center">Continent Pokemon</p> </div>
         <div class="flex lg:flex-row md:flex-col mt-10  hero-size-btns">
       <button class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hexagon" viewBox="0 0 16 16">
