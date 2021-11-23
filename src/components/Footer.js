@@ -16,7 +16,7 @@ function Footer() {
             </a>
             <a
              className='foot-links'
-              href="https://twitter.com/GroudonInu"
+              href="https://twitter.com/SteveKim424"
               target='_blank'
               aria-label='Twitter'
             >

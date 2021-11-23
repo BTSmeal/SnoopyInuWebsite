@@ -44,7 +44,7 @@ const Roadmap = () => {
           </div>
           <div class="flex-grow pl-10">
             <h2 class="font-semi-bold title-font text-6xl text-gray-900 mb-4 tracking-tight">Phase 3</h2>
-            <p class="leading-relaxed text-4xl  text-gray-500"> • Decentralised Exchange Listing <br/>   •  Stakeing Platform Launch   <br/>    • Play 2 Earn Game Launch</p>
+            <p class="leading-relaxed text-4xl  text-gray-500"> • DEX Platform Launch <br/>   •  Stakeing Platform Launch   <br/>    • Play 2 Earn Game Launch</p>
           </div>
         </div>
 </div>

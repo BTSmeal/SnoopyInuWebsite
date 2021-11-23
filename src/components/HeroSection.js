@@ -36,7 +36,7 @@ function HeroSection() {
           <Link to='/buy' > 
           <button class="flex lg:flex-row md:flex-col mt-10  bg-gray-100 inline-flex px-36 py-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none hero-cta-btn"
         ><span class="ml-4 flex items-start flex-col leading-none">
-        <span class="title-font font-medium">Click Me!</span>
+        <span class="title-font font-medium text-center flex-row">Buy Now!</span>
       </span>
         </button>
         </Link>
