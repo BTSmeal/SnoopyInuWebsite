@@ -28,6 +28,11 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
+        <div className="nav-logos">
+          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <img class=" object-center rounded-full w-12 h-12" alt="hero" src="snoopylogo.png"/>  
+          </Link>
+          </div>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>

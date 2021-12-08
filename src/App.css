@@ -1,50 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Fuzzy+Bubbles&family=Lacquer&family=Sriracha&display=swap');
+
+
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-size: 3rem;
-  font-family: 'VT323', monospace;
+  font-family: 'Fuzzy Bubbles', cursive;
   font-size: 100%;
 }
 
-.home,
-.services,
-.products,
-.sign-up {
-  display: flex;
-  height: 90vh;
-  align-items: center;
-  justify-content: center;
-}
-
-.services {
-  background-image: url('/images/img-2.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.products {
-  background-image: url('/images/img-1.jpg');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.sign-up {
-  background-image: url('/images/img-8.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
 .disclaimer-sec{
   min-height: 80vh;
   display: flex;
@@ -57,7 +23,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} 
 .pokeball{
   color: #d63526 ;
   margin-right: 12px;
@@ -80,4 +46,24 @@
   flex-direction: column !important;
   justify-content: center !important;
   align-items: center !important;
+}
+.cta-button{
+  background-color: #abf4ff;
+}
+.phases-title{
+font-size: 2.25rem;
+}
+.phases-para{
+  font-size: 1.25rem;
+}
+.roadmap-iconn{
+  background-color:#abf4ff;
+}
+@media screen and (min-width: 900px){
+  .phases-title{
+    font-size: 2.5rem;
+    }
+    .phases-para{
+      font-size: 1.75rem;
+    }
 }

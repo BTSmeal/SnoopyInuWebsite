@@ -14,14 +14,6 @@ function Footer() {
             >
               <i class='fab fa-telegram fa-2x' />
             </a>
-            <a
-             className='foot-links'
-              href="https://twitter.com/SteveKim424"
-              target='_blank'
-              aria-label='Twitter'
-            >
-              <i class='fab fa-twitter fa-2x' />
-            </a>
           </div>
         </div>
       </section>

@@ -1,5 +1,5 @@
 .footer-container {
-  background-color: black;
+  background-color:black;
   padding: 0.5rem 0 2rem 0;
   display: flex;
   flex-direction: column;
@@ -173,5 +173,5 @@
 @media screen and (max-width: 768px) {
 }
 .foot-links:hover{
-  color: #d63526 ;
+  color: #abf4ff;
 }
