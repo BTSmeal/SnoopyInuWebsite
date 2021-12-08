@@ -9,11 +9,11 @@ const Buy = () => {
       <h1 class="sm:text-3xl text-3xl font-medium text-center title-font text-gray-900 mb-4">Relax and HoLd your $SNOOPY</h1>
       <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-xl">Buy Now! </p>
     </div>
-    <div classname="buy-main-cont">
+    <div className="buy-main-cont">
     <div class="flex flex-wrap -m-4">
       <div class="p-4 md:w-1/2">
         <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img class="lg:h-48 md:h-36 w-full object-center" src="Buybutton.jpeg" alt="blog"/>
+          <img class="lg:h-48 md:h-36 w-full object-center" src="Metamask.jpeg" alt="blog"/>
           <div class="p-6">
             <h2 class="tracking-widest text-lg title-font font-medium text-gray-400 mb-1">Wallet</h2>
             <h1 class="title-font text-xl font-medium text-gray-900 mb-3">Download Metamask</h1>
@@ -32,7 +32,7 @@ const Buy = () => {
       </div>
       <div class="p-4 md:w-1/2">
         <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img class="lg:h-48 md:h-36 w-full object-center" src="Buybutton2.jpeg" alt="blog"/>
+          <img class="lg:h-48 md:h-36 w-full object-center" src="Uniswap.jpeg" alt="blog"/>
           <div class="p-6">
             <h2 class="tracking-widest text-lg title-font font-medium text-gray-400 mb-1">Uniswap</h2>
             <h1 class="title-font text-xl font-medium text-gray-900 mb-3">Receive $SNOOPY</h1>

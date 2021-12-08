@@ -25,6 +25,9 @@
 .hero-image{
   margin-left: 10rem;
   margin-right: 5rem;
+  height: 20rem;
+  width: 20rem;
+  box-shadow: -2px 22px 50px rgba(255, 254, 254, 0.89);
 }
 .hero-title{
   font-family: 'Sriracha', cursive;
@@ -32,8 +35,9 @@
 }
 .hero-para{
   font-family: 'Fuzzy Bubbles', cursive;
-  margin: 2rem 35rem;
+  margin: 2rem 25rem;
   margin-top: 4rem;
+ 
   padding: 20px 65px;
   border-radius: 10px;
   background-color: white;
@@ -55,9 +59,9 @@
     font-size: 30px;
   }
   .hero-image{
-    margin-left: inherit;
-    height: 98%;
-    width: 98%;
+    height: 14rem;
+    width: 14rem;
+    margin-left: 25px;
   }
   .hero-title{
     margin-top: 50px;
@@ -65,8 +69,13 @@
   .hero-para{
     margin-right: inherit;
     margin: 1.3rem;
-    margin-top: inherit;
     padding: 20px 40px;
+  }
+  .hero-text-image{
+    margin-right: 40px;
+  }
+  .hero-btnns{
+    padding: 5px 10px ;
   }
 }
 

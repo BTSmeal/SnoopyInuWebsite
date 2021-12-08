@@ -8,7 +8,7 @@ function Footer() {
           <div class='social-icons'>
             <a
              className='foot-links'
-              href="https://t.me/Groudoninu"
+              href="https://t.me/SnooopyInu"
               target='_blank'
               aria-label='Telegram'
             >

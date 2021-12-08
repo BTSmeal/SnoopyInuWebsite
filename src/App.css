@@ -59,6 +59,14 @@ font-size: 2.25rem;
 .roadmap-iconn{
   background-color:#abf4ff;
 }
+.buy-main-cont{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
 @media screen and (min-width: 900px){
   .phases-title{
     font-size: 2.5rem;
@@ -66,4 +74,11 @@ font-size: 2.25rem;
     .phases-para{
       font-size: 1.75rem;
     }
+}
+@media  screen and (max-width: 900px) {
+  .buy-main-cont{
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  
 }
