@@ -17,7 +17,7 @@ const Services = () => {
         <span style={{color: "#abf4ff", fontSize: "2rem", paddingRight:"20px"}}>
            <i class="far fa-paw"></i>
            </span>
-          <span class="title-font font-medium">13% Buy/Sell Tax</span>
+          <span class="title-font font-medium">12% Buy/Sell Tax</span>
         </div>
       </div>
       <div class="p-2 sm:w-1/2 w-full">
